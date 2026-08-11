@@ -6,8 +6,8 @@
 
 body {
     font-family: Inter, sans-serif;
-    background: #f7f5f2;
-    color: #111;
+    background: #E8E8E3;
+    color: #111111;
     line-height: 1.7;
 }
 
@@ -45,7 +45,7 @@ section {
     margin-top: 10px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #666;
+    color: #555555;
 }
 
 /* ---------- Headings ---------- */
@@ -124,7 +124,7 @@ h3 {
 }
 
 .role {
-    color: #666;
+    color: #555555;
     font-size: 0.95rem;
     margin-bottom: 12px;
 }
@@ -149,15 +149,15 @@ h3 {
 }
 
 .work-grid article p:last-child {
-    color: #444;
+    color: #555555;
 }
 
 /* ---------- Contact ---------- */
 
 .contact a {
-    color: #111;
+    color: #111111;
     text-decoration: none;
-    border-bottom: 1px solid #111;
+    border-bottom: 1px solid #111111;
 }
 
 .contact a:hover {
@@ -169,7 +169,7 @@ h3 {
 footer {
     padding: 60px;
     text-align: center;
-    color: #777;
+    color: #555555;
 }
 
 /* ---------- Mobile ---------- */

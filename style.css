@@ -63,6 +63,38 @@ section{
 
 }
 
+.achievement-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:40px;
+
+}
+
+.achievement img{
+
+    width:100%;
+
+    aspect-ratio:16/10;
+
+    object-fit:cover;
+
+    margin-bottom:20px;
+
+}
+
+.achievement h3{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:2rem;
+
+    margin-bottom:10px;
+
+}
+
 h2{
 
     font-family:"Cormorant Garamond",serif;

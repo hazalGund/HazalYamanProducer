@@ -68,8 +68,8 @@ section {
 }
 
 .nav-button:hover {
-    background: currentColor;
-    color: white;
+    background: #111111;
+    color: #E8E8E3;
 }
 
 /* Smooth scrolling when clicking the buttons */

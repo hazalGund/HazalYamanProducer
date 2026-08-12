@@ -51,25 +51,26 @@ section {
 .home-nav {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin-top: 35px;
+    gap: 35px;
+    margin-top: 40px;
     flex-wrap: wrap;
 }
 
 .nav-button {
     display: inline-block;
-    padding: 12px 24px;
-    border: 1px solid currentColor;
+    padding: 5px 0;
+    border: none;
     text-decoration: none;
-    color: inherit;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    transition: all 0.3s ease;
+    color: #111111;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: opacity 0.3s ease;
 }
 
 .nav-button:hover {
-    background: #111111;
-    color: #E8E8E3;
+    opacity: 0.5;
 }
 
 /* Smooth scrolling when clicking the buttons */
